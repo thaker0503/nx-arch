@@ -1,0 +1,16 @@
+{
+  "name": "@nx-arch/plugin-orm-drizzle",
+  "version": "0.0.0",
+  "description": "Nx Arch plugin",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tsc --noEmit",
+    "test": "node dist/index.js || true"
+  },
+  "dependencies": {
+    "@nx-arch/core": "workspace:*"
+  }
+}

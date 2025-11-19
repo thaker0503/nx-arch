@@ -1,0 +1,5 @@
+node_modules
+packages/*/dist
+packages/*/tsconfig.tsbuildinfo
+packages/plugins/*/dist
+packages/plugins/*/tsconfig.tsbuildinfo
