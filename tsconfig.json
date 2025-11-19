@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/core" },
+    { "path": "packages/templates" },
+    { "path": "packages/cli" },
+    { "path": "packages/plugins/rest" },
+    { "path": "packages/plugins/server-actions" },
+    { "path": "packages/plugins/trpc" },
+    { "path": "packages/plugins/graphql" },
+    { "path": "packages/plugins/websocket" },
+    { "path": "packages/plugins/ui-shadcn" },
+    { "path": "packages/plugins/ui-tailwind" },
+    { "path": "packages/plugins/orm-prisma" },
+    { "path": "packages/plugins/orm-drizzle" }
+  ]
+}

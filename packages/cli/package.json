@@ -1,0 +1,32 @@
+{
+  "name": "create-nx-arch-app",
+  "version": "0.0.0",
+  "description": "CLI to bootstrap nx-arch applications",
+  "bin": {
+    "create-nx-arch-app": "dist/index.js"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup --config tsup.config.ts",
+    "lint": "tsc --noEmit",
+    "test": "node dist/index.js --help || true"
+  },
+  "dependencies": {
+    "@nx-arch/core": "workspace:*",
+    "@nx-arch/plugin-graphql": "workspace:*",
+    "@nx-arch/plugin-orm-drizzle": "workspace:*",
+    "@nx-arch/plugin-orm-prisma": "workspace:*",
+    "@nx-arch/plugin-rest": "workspace:*",
+    "@nx-arch/plugin-server-actions": "workspace:*",
+    "@nx-arch/plugin-trpc": "workspace:*",
+    "@nx-arch/plugin-ui-shadcn": "workspace:*",
+    "@nx-arch/plugin-ui-tailwind": "workspace:*",
+    "@nx-arch/plugin-websocket": "workspace:*",
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "prompts": "^2.4.2"
+  }
+}
